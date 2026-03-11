@@ -1,0 +1,8 @@
+services:
+  python_dev:
+    build:
+      context: ./environment
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./src:/app/src

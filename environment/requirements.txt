@@ -5,3 +5,5 @@ shap
 lime
 requests
 jupyterlab
+google-genai
+python-dotenv
